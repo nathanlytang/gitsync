@@ -1,0 +1,23 @@
+{
+  "name": "gitsync",
+  "version": "1.0.0",
+  "description": "📑 Sync repositories from your main Git host to a backup Git host",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanlytang/gitsync.git"
+  },
+  "author": "Nathan Tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanlytang/gitsync/issues"
+  },
+  "homepage": "https://github.com/nathanlytang/gitsync#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}
